@@ -24,20 +24,29 @@ footer {
     height: 100vh;
     background-color: rgb(255, 0, 0);
     flex-direction: column;
+    border: 0.5px solid black;
     }
     
 header {
     flex-grow: 0; 
     /* flex posso anche non metterlo, 0 è default */
     background-color: whitesmoke;
+    text-align: end;
 }
 
 main {
     flex-grow: 1;
-    background-color: coral;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
 }
 footer {
     flex-grow: 0; 
     /* flex posso anche non metterlo, 0 è default*/
     background-color: whitesmoke;
+}
+.card {
+    width: calc(100%/7);
 }
