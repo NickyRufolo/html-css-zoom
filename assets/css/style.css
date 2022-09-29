@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    }
+
+/* header {
+    background-color: rgb(242, 255, 0);
+    text-align: end;
+    height: 5%;
+}
+
+main {
+    height:90%;
+}
+
+footer {
+    background-color: rgb(221, 255, 0);
+    height: 5%;
+} */
+.container-web-app {
+    display: flex;
+    height: 100vh;
+    background-color: rgb(255, 0, 0);
+    flex-direction: column;
+    }
+    
+header {
+    flex-grow: 0; 
+    /* flex posso anche non metterlo, 0 è default */
+    background-color: whitesmoke;
+}
+
+main {
+    flex-grow: 1;
+    background-color: coral;
+}
+footer {
+    flex-grow: 0; 
+    /* flex posso anche non metterlo, 0 è default*/
+    background-color: whitesmoke;
+}
